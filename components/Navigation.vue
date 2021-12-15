@@ -11,9 +11,9 @@
     </NuxtLink>
     </div>
   <ul class="navbar-links"> 
-    <li><NuxtLink class="nav-text" to="/work">work</NuxtLink></li>
-    <li><NuxtLink class="nav-text" to="/about">about</NuxtLink></li>
-    <li><NuxtLink class="nav-text" to="/contact">contact</NuxtLink></li>     
+    <li><NuxtLink class="nav-text" to="/work">Work</NuxtLink></li>
+    <li><NuxtLink class="nav-text" to="/about">About</NuxtLink></li>
+    <li><NuxtLink class="nav-bubble" to="/contact">Contact</NuxtLink></li>  
   </ul>
  </nav>
 </template>
@@ -26,16 +26,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*
+body {
+  background-color: #18020C;
+}
+*/
 .logo {
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 nav {
     background-color: #6E44FF;
-    font-family: '',;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 20px;
     display: flex;
@@ -49,12 +54,31 @@ nav {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
   }
 
 .nav-text {
   text-decoration: none;
   color: #18020C;
-  font-size: 20px;
+  font-size: 21px;
+}
+
+.nav-text:hover {
+  color: #FAFAFF;
+}
+
+.nav-bubble {
+  text-decoration: none;
+  color: #E0CA3C;
+  font-size: 21px;
+  background-color: #18020C;
+  border-radius: 20px;
+  padding: 11px 20px;
+  margin-right: 10px;
+}
+
+.nav-bubble:hover {
+  color: #6E44FF;
+  background-color: #E0CA3C;
 }
 </style>
