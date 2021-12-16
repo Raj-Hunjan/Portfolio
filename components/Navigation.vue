@@ -34,6 +34,10 @@
   margin-left: 10px;
 }
 
+.logo:hover {
+  opacity: 0.7;
+}
+
 nav {
     background-color: #6E44FF;
     font-family: 'Montserrat', sans-serif;
@@ -60,7 +64,8 @@ nav {
 }
 
 .nav-text:hover {
-  color: #FAFAFF;
+  opacity: 0.6;
+  color: ghostwhite;
 }
 
 .nav-bubble {
@@ -74,7 +79,7 @@ nav {
 }
 
 .nav-bubble:hover {
+  background-color: #1c0f47;
   color: #6E44FF;
-  background-color: #E0CA3C;
 }
 </style>

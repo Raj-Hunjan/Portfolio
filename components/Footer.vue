@@ -1,9 +1,9 @@
 <template>
   <footer>
     <div class="social">
-      <NuxtLink class="icons" to="#"><font-awesome-icon :icon="['fab', 'instagram']"/></NuxtLink> 
-      <NuxtLink class="icons" to="#"><font-awesome-icon :icon="['fab', 'github']"/></NuxtLink> 
-      <NuxtLink class="icons" to="#"><font-awesome-icon :icon="['fab', 'linkedin']"/></NuxtLink> 
+      <a href="https://www.instagram.com/raj.hunjann/"><font-awesome-icon :icon="['fab', 'instagram']"/></a> <!-- Change later -->
+      <a href="https://github.com/Raj-Hunjan/"><font-awesome-icon :icon="['fab', 'github']"/></a> 
+      <a href="https://www.linkedin.com/in/raj-hunjan-79b080228/"><font-awesome-icon :icon="['fab', 'linkedin']"/></a>
         <p class="email">
         rajhunjann@gmail.com
         </p> 
@@ -45,13 +45,13 @@ footer .social {
   font-size: 18px;
 }
 
-footer .social .icons {
+footer .social a {
   font-size: 35px;
   color: #E0CA3C;
   margin: 12px;
 }
 
-footer .social .icons:hover {
+footer .social a:hover {
   opacity: 0.7;
 }
 
