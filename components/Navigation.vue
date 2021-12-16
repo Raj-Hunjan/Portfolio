@@ -26,11 +26,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*
-body {
-  background-color: #18020C;
-}
-*/
+
 .logo {
   width: 50px;
   height: 50px;
