@@ -62,7 +62,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   max-width: 80ch;
-  margin-top: 0;
+  margin-top: 50px;
   padding: 20px
 }
 
