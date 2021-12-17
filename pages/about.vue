@@ -24,6 +24,9 @@
 
 <style>
 
+body {
+  background-color: #18020C;
+}
 
 .head-two {
   font-family: "Montserrat", sans-serif;
