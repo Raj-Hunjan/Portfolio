@@ -32,6 +32,7 @@ footer {
   font-weight: 300;
   background-color: #18020C;
   padding: 30px 0;
+  margin-top: 9rem;
 }
 
 footer .social {

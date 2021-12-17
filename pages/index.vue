@@ -2,7 +2,9 @@
   <div>
   <Navigation/>
   <div class="title">
-    <h1>Hi I'm Raj Hunjan</h1>
+    <h1 class="head">
+      Hi I'm Raj Hunjan
+    </h1>
   </div>
   <Footer/>
   </div>
@@ -33,8 +35,8 @@ body {
   letter-spacing: 1px;
 }
 
-h1 {
-  background-image: url(https://media.giphy.com/media/ZXlaCCmz4XY5QgUEhw/giphy.gif);
+.head {
+  background-image: url(https://media.giphy.com/media/aqS9Eew6JEvyL53pJE/giphy.gif);
   background-size: cover;
   color: transparent;
   background-clip: text;
