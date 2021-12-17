@@ -3,35 +3,35 @@
   <Navigation/>
   <h1 class="head-two">Some of my work</h1>
   <div class="card">
-      <article class="styles">
-        <a href="https://raj-hunjan.github.io/cpnt201-a3/" class="link">
-        <img class="some-image" src="assets/images/image-1.jpg" alt="laptop on desk">
-        <div class="text">
-          <h1 class="head-1">SVG logos</h1>
-          <p class="p-1">Some SVG logos I made and customized</p>
-        </div>
-        </a>
-      </article>
+    <article class="styles">
+      <a href="https://raj-hunjan.github.io/cpnt201-a3/" class="link">
+      <img class="some-image" src="assets/images/image-1.jpg" alt="laptop on desk">
+      <div class="text">
+        <h1 class="head-1">SVG logos</h1>
+        <p class="p-1">Some SVG logos I made and customized</p>
+      </div>
+      </a>
+    </article>
 
-      <article class="styles">
-        <a href="https://codepen.io/rajhunjann/full/porjVJp" class="link">
-        <img class="some-image" src="assets/images/image-2.jpg" alt="Cool looking code">
-        <div class="text">
-          <h1 class="head-1">Landing page</h1>
-          <p class="p-1">A landing page with a responsive nav bar that is animated</p>
-        </div>
-        </a>
-      </article>
+    <article class="styles">
+      <a href="https://codepen.io/rajhunjann/full/porjVJp" class="link">
+      <img class="some-image" src="assets/images/image-2.jpg" alt="Cool looking code">
+      <div class="text">
+        <h1 class="head-1">Landing page</h1>
+        <p class="p-1">A landing page with a responsive nav bar that is animated</p>
+      </div>
+      </a>
+    </article>
 
-      <article class="styles">
-        <a href="https://codepen.io/rajhunjann/full/jOLLNmJ" class="link">
-        <img class="some-image" src="assets/images/image-3.jpg" alt="LED lamp">
-        <div class="text">
-          <h1 class="head-1">Random Fox API</h1>
-          <p class="p-1">An API that display a random fox</p>
-        </div>
-        </a>
-      </article>
+    <article class="styles">
+      <a href="https://codepen.io/rajhunjann/full/jOLLNmJ" class="link">
+      <img class="some-image" src="assets/images/image-3.jpg" alt="LED lamp">
+      <div class="text">
+        <h1 class="head-1">Random Fox API</h1>
+        <p class="p-1">An API that display a random fox</p>
+      </div>
+      </a>
+    </article>
   </div>
   <Footer/>
 </div>
