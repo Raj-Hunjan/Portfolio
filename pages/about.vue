@@ -10,6 +10,8 @@
           <p class="description">
             I just came out of the web developer program at SAIT <br> and  I knew nothing about web design or anything. <br>
             But for the past four months I've learned so much like <br> git, tailwindcss, nuxt.js and so much more! <br>
+          </p>
+          <p class="description-2">
             Now I'm looking forward to learning more <br> programming languages and frameworks like <br> react, and maybe wordpress. But we'll see.
           </p>
         </article>
@@ -40,6 +42,17 @@
 }
 
 .description {
+  color: ghostwhite;
+  background-color: #131314;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  max-width: 80ch;
+  margin-top: 0;
+  padding: 20px
+}
+
+.description-2 {
   color: ghostwhite;
   background-color: #131314;
   border-radius: 20px;
